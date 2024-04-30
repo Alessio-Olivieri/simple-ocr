@@ -4,7 +4,7 @@ package:
 
 source:
     git_rev: v1.0.0
-    git_url: https://github.com/Alessio-Olivieri/ocr_clipboard.git
+    git_url: https://github.com/Alessio-Olivieri/simple-ocr 
     git_clone_depth: 0
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
 
 test:
     imports:
-        - ocr_clipboard
+        - simple-ocr 
 
 about:
-    home: https://github.com/Alessio-Olivieri/ocr_clipboard
+    home: https://github.com/Alessio-Olivieri/simple-ocr 
