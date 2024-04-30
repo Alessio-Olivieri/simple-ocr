@@ -1,0 +1,26 @@
+package:
+    name: ocr-from-clipboard
+    version: 1.0.0
+
+source:
+    git_rev: v1.0.0
+    git_url: https://github.com/Alessio-Olivieri/ocr_clipboard.git
+
+requirements:
+    build:
+        - python >=3.8
+        - setuptools >=40.8.0
+        - pytesseract
+        - pillow
+
+    run:
+        - python >=3.8
+        - pytesseract
+        - pillow
+
+test:
+    imports:
+        - ocr_clipboard
+
+about:
+    home: https://github.com/Alessio-Olivieri/ocr_clipboard
