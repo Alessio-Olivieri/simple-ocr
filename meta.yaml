@@ -5,6 +5,7 @@ package:
 source:
     git_rev: v1.0.0
     git_url: https://github.com/Alessio-Olivieri/ocr_clipboard.git
+    git_clone_depth: 0
 
 requirements:
     build:
